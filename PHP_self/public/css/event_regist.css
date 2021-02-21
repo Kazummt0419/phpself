@@ -1,0 +1,53 @@
+@charset "UTF-8";
+#p-eventEdit {
+  width: 100%;
+  padding: 0 5vw;
+}
+#p-eventEdit-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+#p-eventEdit-head__title {
+  font-size: 1.5vw;
+}
+#p-eventEdit-form {
+  width: 80%;
+  margin: 2vw auto 2vw auto;
+}
+#p-eventEdit-errList {
+  width: 80%;
+  margin: 2vw auto 0 auto;
+}
+.p-eventEdit-errList__item {
+  text-align: center;
+}
+#p-eventEdit-form-table {
+  width: 50%;
+  height: 12vw;
+  padding: 1vw 0;
+  margin: 2vw auto 0 auto;
+  border: 4px solid #89fadf;
+  border-collapse: separate;
+  border-radius: 12px;
+}
+#p-eventEdit-form-table th {
+  width: 50%;
+  text-align: center;
+}
+.p-eventEdit-form-table td input {
+  width: 80%;
+}
+.p-eventEdit-form-table td:nth-child(n+2) input {
+  width: 35%;
+}
+.p-eventEdit-form-buttonBox {
+  text-align: center;
+}
+.p-eventEdit-form-buttonBox__button {
+  padding: 0.5vw;
+  font-size: 1vw;
+  border: 1px solid #000;
+  border-radius: 12px;
+  background-color: #e1faf4;
+}

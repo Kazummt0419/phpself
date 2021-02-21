@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+#p-userInfoRegist {
+  width: 100%;
+  padding: 0 5vw;
+}
+#p-userInfoRegist-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+#p-userInfoRegist-head__title {
+  font-size: 1.5vw;
+}
+#p-userInfoRegist-errList {
+  width: 80%;
+  margin: 2vw auto 0 auto;
+}
+.p-userInfoRegist-errList__item {
+  text-align: center;
+}
+#p-userInfoRegist-form-head__container {
+  width: 50%;
+  margin: 4vw auto 0 auto;
+}
+.p-userInfoRegist-form__head {
+  text-align: center;
+}
+#p-userInfoRegist-form-table {
+  width: 80%;
+  margin: 2vw auto 0 auto;
+  border: 1px solid #000;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 12px;
+  overflow: hidden;
+}
+#p-userInfoRegist-form-table th,td {
+  border-bottom: 1px solid #000;
+  padding: 1vw;
+  font-size: 1vw;
+}
+#p-userInfoRegist-form-table th {
+  background-color: #c5fae7;
+  width: 27%;
+}
+#p-userInfoRegist-form-table td {
+  border-left: 1px solid #000;
+  width: 73%;
+}
+#p-userInfoRegist-form-table tr:last-child th,
+#p-userInfoRegist-form-table tr:last-child td {
+  border-bottom: none;
+}
+#p-userInfoRegist-form-table td input {
+  width: 70%;
+}
+#p-userInfoRegist-form-textBox__input {
+  resize: none;
+  height: 150px;
+  width: 100%;
+}
+#p-userInfoRegist-form-buttonBox {
+  text-align: center;
+}
+#p-userInfoRegist-form-buttonBox__button {
+  padding: 0.5vw;
+  font-size: 1vw;
+  border: 1px solid #000;
+  border-radius: 12px;
+  background-color: #e1faf4;
+}

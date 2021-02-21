@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+/*---Reset---*/
+body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd, img, form, table, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100%;
+	text-align: left;
+	list-style-type: none;
+	border-collapse: collapse;
+}
+
+textarea { font-size: 100%; vertical-align:middle;}
+img { border-style: none; display: block; }
+hr { display: none; }
+em{font-style: normal}
+input{line-height:auto;vertical-align:middle;}
+strong.more{color:#c30}
+a{text-decoration: none;}
+
+body {
+	font-family: YuGothic,'Yu Gothic',sans-serif;
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix{height: 1%;}
+*+html .clearfix{min-height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*---共通パーツ---*/
+#l-wrap {
+  width: 100vw;
+  padding: 0 5vw;
+}
+.c-marginTop1 {
+  margin-top: 1vw;
+}
+.c-marginTop2 {
+  margin-top: 2vw;
+}
+.c-marginTop4 {
+  margin-top: 4vw;
+}
+.c-marginTop5 {
+  margin-top: 5vw;
+}
+.c-marginBottom5 {
+  margin-bottom: 5vw;
+}
+.c-font-black {
+  color: #000;
+}
+.c-font__red {
+  color: red;
+}
+.c-font__bold {
+  font-weight: bold;
+}
+.c-font-size1-2 {
+  font-size: 1.2vw;
+}
+.c-border-bottom {
+  border-bottom: 1px solid #000;
+}
+.c-note {
+  white-space: pre-wrap;
+}
+.c-sat {
+  color: blue;
+}
+.c-sun {
+  color: red;
+}
+
+/*---ヘッダー---*/
+#l-haader {
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid #bdc7bf;
+}
+#l-header-logo {
+  width: 20%;
+}
+#l-header-logo__img {
+  width: 100%;
+}
+#l-header-menu {
+  width: 80%;
+  padding: 0 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.l-header-menu-items__link {
+  color: #000;
+  font-size: 1vw;
+}
+#l-header-menu li:last-child input {
+  color: #000;
+  padding: 0.5vw;
+  font-size: 0.5vw;
+  border: 1px solid #000;
+  border-radius: 12px;
+  background-color: #e1faf4;
+}
+
+/*---フッター---*/
+#l-footer {
+  width: 100%;
+  border-top: 1px solid #bdc7bf;
+}
+#l-footer-logo {
+  width: 20%;
+  margin: 0 0 0 auto;
+}
+#l-footer-logo__img {
+  width: 100%;
+}

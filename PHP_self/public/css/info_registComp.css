@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+#p-infoRegistComp {
+  width: 100%;
+  padding: 0 5vw;
+}
+#p-infoRegistComp-message-box {
+  width: 50%;
+  margin: 0 auto;
+  padding: 2vw;
+  border: 4px solid #89fadf;
+  border-collapse: separate;
+  border-radius: 12px;
+}
+.p-infoRegistComp-message-box__text {
+  text-align: center;
+}

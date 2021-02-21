@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+#p-top {
+  width: 100%;
+  padding: 0 5vw;
+}
+
+/*---ユーザー情報---*/
+#p-top-userInfo-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+#p-top-userInfo-head__title {
+  font-size: 1.5vw;
+}
+#p-top-userInfo-edit__link {
+  color: #000;
+  font-size: 1vw;
+}
+#p-top-userInfo-table {
+  width: 80%;
+  margin: 2vw auto 0 auto;
+  border: 1px solid #000;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 12px;
+  overflow: hidden;
+}
+#p-top-userInfo-table th,td {
+  border-bottom: 1px solid #000;
+  padding: 1vw;
+  font-size: 1vw;
+}
+#p-top-userInfo-table th {
+  background-color: #c5fae7;
+}
+#p-top-userInfo-table td {
+  border-left: 1px solid #000;
+}
+#p-top-userInfo-table tr:last-child th,
+#p-top-userInfo-table tr:last-child td {
+  border-bottom: none;
+}
+
+/*---行事カレンダー---*/
+#p-top-carender {
+  margin-top: 20vw;
+}
+#p-top-carender-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+#p-top-carender-head__title {
+  font-size: 1.5vw;
+}
+#p-top-carender-regist__link {
+  color: #000;
+  font-size: 1vw;
+}
+#p-top-carender-head__title {
+  font-size: 1.5vw;
+}
+#p-top-carender-head__current h3{
+  text-align: center;
+}
+#p-top-carender-table {
+  width: 100%;
+  margin: 2vw auto 0 auto;
+  border: 1px solid #000;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 12px;
+  overflow: hidden;
+}
+#p-top-carender-table th,td {
+  border-bottom: 1px solid #000;
+  padding: 1vw;
+  font-size: 1vw;
+}
+#p-top-carender-table th {
+  background-color: #c5fae7;
+}
+#p-top-carender-table td {
+  width: calc(100%/7);
+  height: 7vw;
+  text-align: left;
+  vertical-align: top;
+}
+#p-top-carender-table td i{
+  color: #83f2a2;
+}
+#p-top-carender-table th,
+#p-top-carender-table td {
+  border-left: 1px solid #000;
+}
+#p-top-carender-table th:first-child,
+#p-top-carender-table td:first-child {
+  border-left: none;
+}
+#p-top-carender-table tr:last-child th,
+#p-top-carender-table tr:last-child td {
+  border-bottom: none;
+}
+.p-top-carender-event__link {
+  background-color: #e7eb88;
+}

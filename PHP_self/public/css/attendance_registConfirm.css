@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+#p-attendanceRegistConfirm {
+  width: 100%;
+  padding: 0 5vw;
+}
+#p-attendanceRegistConfirm-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+#p-attendanceRegistConfirm-head__title {
+  font-size: 1.5vw;
+}
+#p-attendanceRegistConfirm-form__head {
+  text-align: center;
+}
+#p-attendanceRegistConfirm-form-table {
+  width: 80%;
+  margin: 2vw auto 0 auto;
+  border: 1px solid #000;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 12px;
+  overflow: hidden;
+}
+#p-attendanceRegistConfirm-form-table th,td {
+  border-bottom: 1px solid #000;
+  padding: 1vw;
+  font-size: 1vw;
+}
+#p-attendanceRegistConfirm-form-table th {
+  background-color: #c5fae7;
+  width: 27%;
+}
+#p-attendanceRegistConfirm-form-table td {
+  border-left: 1px solid #000;
+  width: 73%;
+}
+#p-attendanceRegistConfirm-form-table tr:last-child th,
+#p-attendanceRegistConfirm-form-table tr:last-child td {
+  border-bottom: none;
+}
+#p-attendanceRegistConfirm-form-table td input {
+  width: 70%;
+}
+#p-attendanceRegistConfirm-form-textBox__input {
+  resize: none;
+  height: 150px;
+  width: 100%;
+}
+.p-attendanceRegistConfirm-form-buttonBox {
+  text-align: center;
+}
+.p-attendanceRegistConfirm-form-buttonBox__button {
+  padding: 0.5vw;
+  font-size: 1vw;
+  border: 1px solid #000;
+  border-radius: 12px;
+  background-color: #e1faf4;
+}

@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+#p-userRegistConfirm {
+  width: 100%;
+  padding: 0 5vw;
+}
+#p-userRegistConfirm-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+#p-userRegistConfirm-head__title {
+  font-size: 1.5vw;
+}
+#p-userRegistConfirm-form__head {
+  text-align: center;
+}
+#p-userRegistConfirm-form-table {
+  width: 50%;
+  margin: 2vw auto 0 auto;
+  border: 1px solid #000;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 12px;
+  overflow: hidden;
+}
+#p-userRegistConfirm-form-table th,td {
+  border-bottom: 1px solid #000;
+  padding: 1vw;
+  font-size: 1vw;
+}
+#p-userRegistConfirm-form-table th {
+  background-color: #c5fae7;
+  width: 27%;
+}
+#p-userRegistConfirm-form-table td {
+  border-left: 1px solid #000;
+  width: 73%;
+}
+#p-userRegistConfirm-form-table tr:last-child th,
+#p-userRegistConfirm-form-table tr:last-child td {
+  border-bottom: none;
+}
+#p-userRegistConfirm-form-table td input {
+  width: 100%;
+}
+#p-userRegistConfirm-form-textBox__input {
+  resize: none;
+  height: 150px;
+  width: 100%;
+}
+.p-userRegistConfirm-form-buttonBox {
+  text-align: center;
+}
+.p-userRegistConfirm-form-buttonBox__button {
+  padding: 0.5vw;
+  font-size: 1vw;
+  border: 1px solid #000;
+  border-radius: 12px;
+  background-color: #e1faf4;
+}
